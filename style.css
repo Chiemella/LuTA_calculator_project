@@ -1,6 +1,6 @@
-/* Default styles */
 body {
   background-color: tan;
+ 
 }
 
 .box {
@@ -10,12 +10,12 @@ body {
   border-radius: 10px;
   position: relative;
   top: 80px;
-  /* left: 40%; */
+  left: 40%;
 }
 
 .display {
   background-color: #222;
-  width: 224px;
+  width: 220px;
   position: relative;
   left: 15px;
   top: 20px;
@@ -26,6 +26,7 @@ body {
   position: relative;
   left: 2px;
   top: 2px;
+  width: 206px;
   height: 29px;
   color: black;
   background-color: #bccd95;
@@ -62,7 +63,7 @@ body {
 }
 
 .button.black {
-  color: rgb(8, 8, 8);
+  color: rgb(0, 0, 0);
   background-color: 303030;
   border-bottom: black 2px solid;
   border-top: 2px 303030 solid;
@@ -99,8 +100,12 @@ p {
   line-height: 10px;
 }
 
-/* Media queries */
-@media only screen and (max-width: 335px) {
+
+
+
+
+
+ @media only screen and (max-width: 768px) {
   .box {
     width: 80%;
     left: 10%;
@@ -112,4 +117,4 @@ p {
   p {
     font-size: 16px;
   }
-}
+} 
