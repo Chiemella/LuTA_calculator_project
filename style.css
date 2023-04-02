@@ -100,7 +100,7 @@ p {
 }
 
 /* Media queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .box {
     width: 80%;
     left: 10%;
